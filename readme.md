@@ -31,55 +31,23 @@
 В реальной практике управление затратами (FinOps) и миграции требуют сравнения ресурсов **по смыслу**, а не по бренду.  
 Поэтому используют **сервисную модель**, где расходы классифицируются по функциональным доменам (Compute/Storage/Network/Database/Analytics) и единице тарификации (час, GB‑month, запросы и т.д.).
 
----
+AWS
+<img width="1397" height="712" alt="image" src="https://github.com/user-attachments/assets/eb845d14-9bc8-4d34-a68e-9e11a6329895" />
+
+Azure
+<img width="1529" height="712" alt="image" src="https://github.com/user-attachments/assets/fe24d702-2556-44a4-bab0-46a6a0ba1f37" />
 
 
-### 1) Классификация AWS 
-Основные сервисы:
-- AmazonSNS: **13** правил
-- AmazonVPC: **12** правил
-- AmazonS3: **7** правил
-- AmazonSES: **7** правил
-- AmazonRedshift: **6** правил
-- AmazonQLDB: **2** правил
-
-
-### 2) Классификация Azure (team 10)
-Основные группы (по Consumed Service):
-- Microsoft.DataFactory: **6** правил
-- Compute: **6** правил
-- %Compute: **6** правил
-- Microsoft.StreamAnalytics: **4** правил
-- Microsoft.RecoveryServices: **3** правил
-- Microsoft.Cache: **3** правил
-- Microsoft.Batch: **3** правил
-- Microsoft.Databricks: **2** правил
-- microsoft.insights: **2** правил
-- Microsoft.DataLakeStore: **2** правил
-- Microsoft.Cdn: **2** правил
-- Microsoft.DBforMyQL: **1** правил
-
-
----
 
 ## Таблица соответствий AWS ↔ Azure (Crosswalk)
 Идея: сопоставить сервисы по назначению (общей способности), чтобы затраты можно было сравнивать между провайдерами.
-<img width="1062" height="435" alt="image" src="https://github.com/user-attachments/assets/e7b935d2-0b0b-421f-bd1b-50cec9931cd4" />
+<img width="735" height="341" alt="image" src="https://github.com/user-attachments/assets/3555922a-ee5d-4b79-84c6-00c064ed3706" />
 
 
----
-
-## Результаты
-- AWS (team 10): **47** правил классифицировано.  
-- Azure (team 10): **42** правил классифицировано.  
-- Построено соответствий (crosswalk): **12**.
-
-Итоговая таблица и классификация собраны в файле **LAB2_team10.xlsx**.
-
----
 
 ## Заключение
 В ходе лабораторной работы данные двух провайдеров (AWS и Azure) приведены к единой сервисной модели.  
 Сформирована таблица соответствий AWS  Azure, позволяющая проводить кросс‑облачный анализ и сравнение затрат по функциональным категориям.
+
 <img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/b49f4bf2-98e1-42d0-a3e9-99eee6533f5e" />
 
